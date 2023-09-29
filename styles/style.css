@@ -36,3 +36,39 @@ ul,
 ol {
   list-style: none;
 }
+
+/* Заголовок первого уровня */
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 94%;
+}
+
+.cards-list-item-template {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Результирующий контейнер */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result__video {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.result__video-container {
+  position: relative;
+  width: 711px;
+  height: 386px;
+}
