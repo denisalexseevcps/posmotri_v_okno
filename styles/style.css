@@ -67,6 +67,25 @@ ol {
   object-fit: cover;
 }
 
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .result__video-container {
   position: relative;
   width: 711px;
@@ -242,4 +261,37 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   width: 190px;
+}
+
+
+.button {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px 0;
+  color: #fff;
+  background: none;
+  border: 1px solid currentColor;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.more-button {
+  width: 100%;
 }
