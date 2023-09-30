@@ -50,11 +50,6 @@ ol {
   line-height: 94%;
 }
 
-/* .cards-list-item-template {
-  display: flex;
-  flex-direction: column;
-} */
-
 /* Результирующий контейнер */
 
 .result {
@@ -91,7 +86,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 711px;
+  inline-size: 711px;
   height: 386px;
 }
 
