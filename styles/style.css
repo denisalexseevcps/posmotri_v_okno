@@ -50,10 +50,10 @@ ol {
   line-height: 94%;
 }
 
-.cards-list-item-template {
+/* .cards-list-item-template {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* Результирующий контейнер */
 
@@ -113,7 +113,7 @@ ol {
 
 .content__list {
   position: relative;
-  height: 300px;
+  height: 298px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
